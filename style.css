@@ -1,0 +1,449 @@
+/* font google quicksand */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* smooth scroll */
+html{
+    scroll-behavior: smooth;
+}
+
+/* styling font */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* header */
+header{
+    display: inline;
+    margin: 0;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 3px 3px 3px #888888;
+}
+
+nav {
+    background-color: #7bcc97;
+    padding: 5px;
+    top: 0;
+    text-align: center;
+}
+
+nav ul{
+    padding: 30px;
+}
+
+nav li {
+    display: inline-block;
+    width: 100px;
+    list-style: none;
+    text-align: center;
+}
+
+nav li a {
+    color: #000000;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    font-weight: bold;
+}
+
+nav li a:hover {
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+/* main */
+.myHome {
+    display: flex;
+    margin-bottom: 50px;
+    margin: auto;
+    align-items: center;
+}
+
+.myHome .anmLottie1{
+    margin-top: 80px;
+    width: 90%;
+    height: auto;
+}
+
+.myHome .logoHome {
+    display: inline-block;
+    width: 45px;
+}
+
+.mainDescript .descript {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainDescript h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+}
+
+/* content */
+.myContent .curveTop{
+    margin-bottom: -5px;
+}
+
+.myContent .curveBottom{
+    margin-top: -5px;
+}
+
+.firstContent{
+    background-color: #7bcc97;
+    padding-top: 30px;
+}
+
+.firstContent h2{
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 70px 0 70px;
+}
+
+.packet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.card{
+    padding: 30px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 25%;
+    height: fit-content;
+    transition-duration: 0.3s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+}
+
+.namePacket{
+    background-color: rgb(255, 115, 0);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: #000000;
+}
+
+.buttonCard{
+    margin-top: 20px;
+}
+
+.buttonCard button{
+    padding: 4px 5px;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    outline: none;
+    color: #000000;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttonCard button:hover {
+    background-color: #3e8e41
+}
+
+.anmCard{
+    width: 100%; 
+}
+
+/* second content */
+.secondContent h2{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 70px 0 70px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #7bcc97;
+}
+
+.howWork{
+    display: flex;
+    flex-direction: column;
+}
+
+.bookNow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+
+.bookNow div{
+    width: 50%;
+}
+
+.bookNow img{
+    width: 50%;
+    height: auto;
+}
+
+.payying{
+    margin: 20px 50px 10px 50px;
+    background-color: #7bcc97;
+    border-radius: 10px;
+}
+
+.innerPayying{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+
+.innerPayying div{
+    width: 50%;
+}
+
+.innerPayying img{
+    width: 50%;
+    height: auto;
+}
+
+.studying{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+
+.studying div{
+    width: 50%;
+}
+
+.studying img{
+    width: 50%;
+    height: auto;
+}
+
+/* third content */
+.thirdContent{
+    background-color:#7bcc97 ;
+}
+
+.thirdContent h2{
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 70px 0 70px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.mentor{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    flex-wrap: wrap;
+}
+/* profil */
+.myProfil h2{
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 100px 20px 100px;
+    background-color: #7bcc97;
+}
+
+.profilContactSosmed{
+    display: flex;
+    justify-content: center;
+}
+
+.contactSosmed{
+    margin-right: 20px;
+}
+
+.contactSosmed .contact{
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contactSosmed .sosmed{
+    width: fit-content;
+}
+
+.sosmed article a{
+    text-decoration: none;
+    color: black;
+}
+
+.sosmed article a:hover{
+    color: cyan;
+}
+
+.profil{
+    text-align: center;
+}
+
+.profil img{
+    width: 80%;
+    border-radius: 10px;
+    margin: 5px 5px;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #1e5723;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/* tall */
+.tallContent{
+    height: 70px;
+    background-color: #7bcc97;
+}
+
+.tallProfil{
+    height: 100px;
+}
+
+
+
+/* ============================== when minimize =========================== */
+@media screen and (max-width: 1024px) {
+
+    /* navbar */
+    nav {
+        position: static;
+    }
+
+    nav ul{
+        padding: 5px;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px auto;
+        font-size: 18px;
+    }
+
+    /* home */
+    .myHome {
+        margin-top: 10vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .myHome .anmLottie1{
+        width: 100%;
+        height: auto;
+    }
+
+    /* description */
+    .mainDescript {
+        text-align: center;
+    }
+
+    /* content */
+    .packet{
+        padding: 20px 20px;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin:0 40px 40px 40px;
+        flex-basis: 1;
+        width: auto;
+        max-width: 400px;
+    }
+
+    /* second content */
+    .bookNow{
+        flex-direction: column;
+    }
+
+    .bookNow div{
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .bookNow img{
+        width: 100%;
+        height: auto;
+    }
+
+    .innerPayying{
+        flex-direction: column;
+    }
+
+    .innerPayying div{
+        width: 100%;
+        padding-top: 10px;
+        text-align: right;
+    }
+    
+    .innerPayying img{
+        width: 100%;
+        height: auto;
+    }
+
+    .studying{
+        flex-direction: column;
+    }
+
+    .studying div{
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .studying img{
+        width: 100%;
+        height: auto;
+    }
+
+    /* profil */
+    .profilContactSosmed{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap-reverse;
+    }
+
+    .contactSosmed{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .profil{
+        margin: 0;
+    }
+
+    .contact{
+        margin: 0;
+        width: fit-content;
+    }
+}
